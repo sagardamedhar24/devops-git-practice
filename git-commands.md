@@ -16,4 +16,7 @@
 - `git status` : Check Repository State. Displays the state of the working directory and staging area (shows tracked, untracked and modified files).
 - `git log` : Default View of git history with full Details (SHA,author,date,comment message)
 - `git log --oneline` : Compact View of git history i.e. One line per commit.
+- `git log -n 5` : Limit count. Show only the last N commits history.
+- `git log -p` : Shows actual file changes for each commit
+- `git log --author="name"`: Filters history by a specific author
 
