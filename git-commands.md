@@ -14,4 +14,6 @@
 
 3. Viewing Changes
 - `git status` : Check Repository State. Displays the state of the working directory and staging area (shows tracked, untracked and modified files).
+- `git log` : Default View of git history with full Details (SHA,author,date,comment message)
+- `git log --oneline` : Compact View of git history i.e. One line per commit.
 
