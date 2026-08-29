@@ -9,6 +9,8 @@
 
 2. Basic Workflow
 - `git init` : Initialize Repository. Creates a new, hidden '.git' subdirectory in your current folder, turning it into a tracked Git repository.
+- `git add filename` : Add untracked files to Staging area.
+- `git commit -m "Commit Message"` : Commit all staged files in repository.
 
 3. Viewing Changes
 - `git status` : Check Repository State. Displays the state of the working directory and staging area (shows tracked, untracked and modified files).
