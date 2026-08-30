@@ -23,3 +23,9 @@
 4. Branching Commands
 - `git branch` or `git branch -a` : To find the all branches from repo.
 - `git branch <branch-name>` : To create new branch without switching to it at the same time.
+- `git switch <branch-name>` : Switch between branches.
+- `git checkout -b <branch-name>`: Create and switch branch immediately.
+- `git log master..feature-1 --oneline` : See commits on feature that are not on main branch. (Target branch is second.)
+- `git log feature-1..master --oneline` : See commits on main that are not on feature branch. (Target branch is second.)
+- `git branch -d <branch-name>` : Safe delete (Recommended)
+- `git branch -D <branch-name>` : Force delete
