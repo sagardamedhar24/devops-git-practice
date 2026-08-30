@@ -29,3 +29,8 @@
 - `git log feature-1..master --oneline` : See commits on main that are not on feature branch. (Target branch is second.)
 - `git branch -d <branch-name>` : Safe delete (Recommended)
 - `git branch -D <branch-name>` : Force delete
+
+5. GitHub Remote & local connection:
+- `git remote add origin <ssh github url>` : To connect your local repo to GitHub remote repo.
+- e.g. `git remote add origin git@github.com:sagardamedhar24/devops-git-practice.git`
+- ` remote -v`: List all the remote repository connections currently linked to the local repo.
