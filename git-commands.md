@@ -34,3 +34,7 @@
 - `git remote add origin <ssh github url>` : To connect your local repo to GitHub remote repo.
 - e.g. `git remote add origin git@github.com:sagardamedhar24/devops-git-practice.git`
 - ` remote -v`: List all the remote repository connections currently linked to the local repo.
+- `git push origin <branch_name>` : To push local repo changes to GitHub Repo.
+- `git pull origin <branch_name>` : To pull changes from GitHub Repo to local repo.
+- `git clone <git clone URL>` : Clone remote github repo to local repo.
+- e.g. `git clone git@github.com:LondheShubham153/shell-scripts.git`
