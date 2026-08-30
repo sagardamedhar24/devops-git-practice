@@ -20,3 +20,6 @@
 - `git log -p` : Shows actual file changes for each commit
 - `git log --author="name"`: Filters history by a specific author
 
+4. Branching Commands
+- `git branch` or `git branch -a` : To find the all branches from repo.
+- `git branch <branch-name>` : To create new branch without switching to it at the same time.
