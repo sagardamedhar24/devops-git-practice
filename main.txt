@@ -1,1 +1,4 @@
 This is a home text file from master.
+
+This file tracks all the changes done on master.
+
