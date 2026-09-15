@@ -1,0 +1,5 @@
+This is a profile page.
+
+User can update/edit their profile details.
+
+Using this profile page, user can chhose their preferences.
