@@ -1,2 +1,4 @@
 This is a setting page.
 
+Through this page, we can manage settings of the app.
+
