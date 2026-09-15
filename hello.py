@@ -5,3 +5,6 @@ def add_numbers():
 
 def sub_numbers():
     return "Substranction of numbers:"
+
+def dev_numbers():
+    return "Devidation of numbers:"
