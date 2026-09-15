@@ -2,3 +2,4 @@ This is a setting page.
 
 Through this page, we can manage settings of the app.
 
+This is a global setting page across the application.
