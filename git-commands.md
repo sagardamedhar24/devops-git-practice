@@ -37,4 +37,25 @@
 - `git push origin <branch_name>` : To push local repo changes to GitHub Repo.
 - `git pull origin <branch_name>` : To pull changes from GitHub Repo to local repo.
 - `git clone <git clone URL>` : Clone remote github repo to local repo.
-- e.g. `git clone git@github.com:LondheShubham153/shell-scripts.git`
+    - e.g. `git clone git@github.com:LondheShubham153/shell-scripts.git`
+
+6. GitHub Merge and Rebase commands:
+# Merging changes from feature-login to master branch. 
+# First switch on branch where we want to merge changes(from another branch e.g. feature-login).
+
+- `git merge <branch name>`
+- e.g. `git merge feature-signup`
+- `git merge --squash <branch-name>` : To merge number of small commits into single commit.
+# Rebase changes from master to current branch
+# Switch on the branch, where we want to rebase
+- `git rebase master` : This rebase the current branch as per master
+
+7. GitHub Stash and Cherry-pick Commands:
+- `git stash`: Stashed changes with last commit message.
+- `git stash -m "Message"` :Stashed changes with custome message. 
+- `git stash show` :Show stashed changes.
+- `git stash list` : List all the stashed changes.
+- `git stash pop` : Restore last stashed changes only in untracked files.
+- `git stash apply {stash_id} : Restore specific stash-id from the stash list.
+- `git cherry-pick <source-branch>`: Can apply specific commit from one branch to another.
+
