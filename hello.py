@@ -5,4 +5,3 @@ def add_numbers():
 
 def sub_numbers():
     return "Substranction of numbers:"
-
