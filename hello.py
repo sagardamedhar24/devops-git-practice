@@ -9,3 +9,5 @@ def sub_numbers():
 def mod_numbers():
     return "Modulo of number:"
 
+def run_me():
+    return "Result:"
