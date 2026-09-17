@@ -11,3 +11,7 @@ def mod_numbers():
 
 def run_me():
     return "Result:"
+
+def test_me():
+    break;
+
