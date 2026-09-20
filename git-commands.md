@@ -59,3 +59,9 @@
 - `git stash apply {stash_id} : Restore specific stash-id from the stash list.
 - `git cherry-pick <source-branch>`: Can apply specific commit from one branch to another.
 
+8. Git Reset & Revert Commands
+
+- `git reset --soft HEAD~1` : Remove last one commit from commit history and preserve changes in staging area.
+- `git reset --mixed HEAD~1` : Remove last one commit from commit history and preserve changes in Unstaged area.
+- `git reset --hard HEAD~1` : Discard last one commit changes completely from working tree along with commit history.
+- `git rever `<`hash_code or commit_id`>`` : Revert the changes for specific commit and preserves old history and create new commit for revert opration.
