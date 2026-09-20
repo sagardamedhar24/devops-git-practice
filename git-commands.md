@@ -40,14 +40,17 @@
     - e.g. `git clone git@github.com:LondheShubham153/shell-scripts.git`
 
 6. GitHub Merge and Rebase commands:
-# Merging changes from feature-login to master branch. 
-# First switch on branch where we want to merge changes(from another branch e.g. feature-login).
+
+Merging changes from feature-login to master branch. 
+
+First switch on branch where we want to merge changes(from another branch e.g. feature-login).
 
 - `git merge <branch name>`
 - e.g. `git merge feature-signup`
 - `git merge --squash <branch-name>` : To merge number of small commits into single commit.
-# Rebase changes from master to current branch
-# Switch on the branch, where we want to rebase
+
+Rebase changes from master to current branch
+- Switch on the branch, where we want to rebase
 - `git rebase master` : This rebase the current branch as per master
 
 7. GitHub Stash and Cherry-pick Commands:
